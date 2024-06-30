@@ -1,0 +1,80 @@
+.services-img {
+width: 1500px;
+    height: 356px;
+}
+
+.services {
+    max-width:1920px;
+
+}
+
+.services-card {
+
+    width: 358px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.services-card h1 {
+    padding-top: 50px;
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.services-card p {
+    color: rgb(0, 0, 0);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+    padding: 30px;
+    width: 358px;
+    height: 225px;
+}
+
+.services-card-active {
+
+    width: 358px;
+    height: 322px;
+    background: rgb(249, 249, 249);
+    border-radius: 30px;
+}
+
+.services-card-active h1 {
+    color: rgb(199, 105, 4);
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.services-card-active p {
+    color: rgb(199, 105, 4);
+    font-size: 22px;
+    text-align: center;
+}
+.services-card-active img {
+    padding-top: 43px;
+    padding-left: 120px;
+}

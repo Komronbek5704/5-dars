@@ -1,0 +1,48 @@
+nav a {
+    text-decoration: none;
+    color: black;
+    gap: 50px;
+}
+
+.active {
+    color: rgb(199, 105, 4);
+    /* Jigarrang rang */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    gap: 50px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    gap: 40px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+   font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+}
